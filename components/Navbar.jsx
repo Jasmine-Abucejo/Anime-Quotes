@@ -18,14 +18,14 @@ const Navbar = () => {
       </div>
       <div className="bg-white">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="flex h-8 itemx-center justify-between items-center">
+          <div className="flex h-10 itemx-center justify-between items-center">
             <Link to="/">
-              <div className="rounded-md bg-amber-600 px-4">
+              <div className="rounded-md bg-amber-600 px-4 h-8 flex items-center">
                 <div className="font-bold">Home</div>
               </div>
             </Link>
             <Link to="/add">
-              <div className="rounded-md bg-gray-400 px-4">
+              <div className="rounded-md bg-gray-400 px-4 h-8 flex items-center">
                 <div className="font-bold">Add New</div>
               </div>
             </Link>
