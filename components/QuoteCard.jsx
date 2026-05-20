@@ -32,13 +32,13 @@ const QuoteCard = ({ item }) => {
         <div className="w-full h-6 bg-amber-600">
           <div className=" flex gap-2 lg:opacity-0 lg:group-hover:opacity-100 transition z-20 opacity-100 ">
             <button
-              className="text-xs bg-black/60 text-white px-2 py-1 rounded"
+              className="text-s bg-black/60 text-white px-2 py-1 rounded"
               onClick={handleEdit}
             >
               <FaEdit />
             </button>
             <button
-              className="text-xs bg-red-500/80 text-white px-2 py-1 rounded"
+              className="text-s bg-red-500/80 text-white px-2 py-1 rounded"
               onClick={(e) => {
                 e.stopPropagation();
                 setShowDeleteModal(true);
